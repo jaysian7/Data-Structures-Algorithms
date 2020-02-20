@@ -20,9 +20,9 @@ Return the result */
 // }
 
 /* Shorthand method */
-// function reverse(str) {
-//   return str.split('').reverse().join('')
-// }
+function reverse(str) {
+  return str.split('').reverse().join('')
+}
 
 
 // Solution 2
@@ -46,6 +46,7 @@ For...of syntax which was introduced with ES2015
 //   let reversedString = ''
 //   for (let character of str) {
 //     reversedString = character + reversedString;
+//     debugger;
 //   }
 //   return reversedString;
 // }
@@ -60,18 +61,18 @@ The result that gets returned from arrow function, will then be used as the star
 Syntax:
 array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
  */
-function reverse(str) {
-  //debugger;
-  return str.split('').reduce((reversedString, character) => {
-    return character + reversedString;
-  }, '');
-}
+// function reverse(str) {
+//   debugger;
+//   return str.split('').reduce((reversedString, character) => {
+//     return character + reversedString;
+//   }, '');
+// }
 
 // Shorthand method
 // function reverse(str) {
 //   return str.split('').reduce((rev, char) => char + rev, '');
 // }
 
-//reverse('string');
+reverse('string');
 
 module.exports = reverse;
