@@ -5,6 +5,4 @@ All extra solutions are commented out so that the tests run successfully. Feel f
 All of my tests are ran using jest watch on the test files provided, or node-inspect, but can also be ran in any JS playground.
 
 Big thank you to Stephen Grider from Udemy for providing this awesome crash course. 
-I hope that these solutions will help some of you who are looking to learn or brush up on your Data Structure and Algorithms skills. 
-Although a lot of these solutions are provided during the course, I have added my own comments to show my thinking 
-while I was working out these problems, and even provided some extra solutions just to test myself and find different ways to solving each problem.
+I hope that these solutions will help some of you who are looking to learn or brush up on your Data Structure and Algorithms skills.
